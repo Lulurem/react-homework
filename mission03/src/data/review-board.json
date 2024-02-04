@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "review-cksd",
+      "best": "베스트",
+      "grade": "퍼플",
+      "name": "김*진",
+      "product": "[풀무원] 탱탱쫄면 (4개입)",
+      "contentTop": "너무 맛있어여~",
+      "contentBottom": "면이 쫄깃하고 양념도 짱맛나요!!",
+      "date": "2024.01.05"
+    },
+    {
+      "id": "review-zids",
+      "best": "베스트",
+      "grade": "퍼플",
+      "name": "김*식",
+      "product": "[풀무원] 탱탱쫄면 (4개입)",
+      "contentTop": "또 주문할 것 같습니다.",
+      "contentBottom": "너무 맛있어요 내 스타일이야~!",
+      "date": "2024.01.17"
+    },
+    {
+      "id": "review-woxs",
+      "best": "베스트",
+      "grade": "퍼플",
+      "name": "김*범",
+      "product": "[풀무원] 탱탱쫄면 (4개입)",
+      "contentTop": "탱탱한 면발과 새콤달콤한 소스가 어우러진",
+      "contentBottom": "탱탱쫄면!!!",
+      "date": "2024.01.28"
+    }
+  ]
+}

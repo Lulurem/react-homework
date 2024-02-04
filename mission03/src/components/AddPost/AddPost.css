@@ -1,0 +1,107 @@
+.board-wrapper {
+  padding: 50px;
+
+  & .board {
+    width: 729px;
+    height: 566px;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 36px 0px rgba(0, 0, 0, 0.20);
+  }
+}
+
+.board-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E1E1E1;
+  padding-bottom: 20px;
+
+  & h1 {
+    font-size: 28.43px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  & button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background: url("/board/cancel.svg") no-repeat center;
+  }
+}
+
+.product-info {
+  height: 72px;
+  padding: 16px 0px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid #E1E1E1;
+
+  & img {
+    width: 60px;
+    height: 72px;
+  }
+}
+
+.board-form {
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0px 58px 0px;
+  gap: 12px;
+  border-bottom: 1px solid #E1E1E1;
+
+  & .subject,
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & label {
+    padding: 15px 0px 0px 8px;
+  }
+
+  & #subject {
+    width: 589px;
+    height: 44px;
+    padding: 0px 20px;
+    border-radius: 4px;
+    border: 1px solid #A6A6A6;
+  }
+
+  & #content {
+    width: 597px;
+    height: 166px;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #A6A6A6;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #898989;
+    resize: none;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 12px;
+
+  & button {
+    width: 186px;
+    height: 54px;
+    color: #333333;
+    background: transparent;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+  }
+
+  & .registration {
+    color: #fff;
+    background: #E1E1E1;
+    border: 1px solid #E1E1E1;
+  }
+}
